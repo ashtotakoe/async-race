@@ -1,0 +1,9 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+
+  &__button {
+    margin: 5px;
+    padding: 5px;
+  }
+}

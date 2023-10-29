@@ -103,5 +103,7 @@ dist
 # TernJS port file
 .tern-port
 
+# for makintosh enjoyers
 .DS_Store
-dist/
+
+node_modules

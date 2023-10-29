@@ -1,0 +1,24 @@
+.garage-control {
+  width: 230px;
+  height: 80px;
+  margin: 10px;
+  background-color: $font-color;
+
+  &__container {
+    width: 83%;
+    margin: auto;
+    padding-top: 5px;
+  }
+
+  &__controls-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 15px;
+    margin: 5px;
+  }
+
+  &__button {
+    width: 70px;
+    height: 20px;
+  }
+}

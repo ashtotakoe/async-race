@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  margin-top: 40px;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 30px;
+
+    color: $font-color;
+
+    &__github {
+      margin-right: auto;
+      color: $font-color;
+    }
+
+    &__rss-logo {
+      width: 100px;
+      height: 37px;
+      margin-left: auto;
+      background: url('src/assets/icons/rs-logo.webp') center/cover no-repeat;
+    }
+  }
+}

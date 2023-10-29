@@ -1,0 +1,10 @@
+.winners-controls {
+  display: flex;
+  gap: 15px;
+  justify-content: center;;
+  margin-top: 40px;
+
+  &__button {
+    padding: 0 5px;
+  }
+}

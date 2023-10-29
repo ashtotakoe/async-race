@@ -1,0 +1,11 @@
+.not-found {
+  height: 51vh;
+  color: $font-color;
+
+  &__heading {
+    margin: auto;
+    margin-top: 200px;
+    font-size: 3rem;
+    text-align: center;
+  }
+}

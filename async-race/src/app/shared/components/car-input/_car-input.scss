@@ -1,0 +1,15 @@
+.car-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 190px;
+
+  &__name {
+    width: 80px;
+    height: 18px;
+  }
+
+  &__color {
+    height: 24px;
+  }
+}

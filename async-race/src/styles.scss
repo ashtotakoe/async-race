@@ -1,0 +1,39 @@
+@import 'styles/variables';
+@import 'app/core/components/not-found/not-found';
+@import 'app/core/components/footer/footer';
+@import 'app/core/components/header/header';
+@import 'app/core/components/popup/popup';
+
+@import 'app/shared/components/car-input/car-input';
+@import 'app/shared/components/pagination/pagination';
+@import 'app/shared/components/car/car';
+
+@import 'app/garage/garage';
+@import 'app/garage/components/car-cell/car-cell';
+@import 'app/garage/components/garage-control/garage-control';
+
+@import 'app/winners/winners';
+@import 'app/winners/components/winners-leader-board/winners-leader-board';
+@import 'app/winners/components/winner-cell/winner-cell';
+@import 'app/winners/components/winners-controls/winners-constrols';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $bg;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon {
+  transform: translateY(-9px);
+  width: 50px; 
+  height: 50px;
+}

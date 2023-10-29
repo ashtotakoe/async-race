@@ -1,0 +1,31 @@
+.popup {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  visibility: hidden;
+
+  transition: visibility .3s ease;
+
+  &__message {
+    width: 235px;
+    min-height: 30px;
+    margin: auto;
+    margin-top: 200px;
+
+    font-size: 1.5rem;
+    text-align: center;
+
+    background-color: $font-color;
+    border: 5px solid $bg;
+    border-radius: 5%;
+  }
+}
+
+.popup.active {
+  visibility: visible;
+}

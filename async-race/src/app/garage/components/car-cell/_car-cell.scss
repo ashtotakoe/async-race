@@ -1,0 +1,45 @@
+.car-cell {
+  position: relative;
+
+  height: 100px;
+  margin: 5px;
+  padding: 5px;
+
+  color: $bg;
+
+  background: $font-color;
+
+  &__controls {
+    display: flex;
+    justify-content: space-between;
+    width: 30px;
+    margin-top: 5px;
+  }
+
+  &__road {
+    height: 2px;
+    margin-top: 33px;
+    background: $bg;
+  }
+
+  &__button {
+    margin: 0 3px;
+    padding: 0 7px;
+  }
+
+  &__car {
+    position: absolute;
+  }
+
+  &__flag {
+    position: absolute;
+    z-index: 1;
+    right: 68px;
+    bottom: 11px;
+
+    width: 18px;
+    height: 20px;
+
+    background: url('src/assets/icons/flag.svg') center/cover no-repeat;
+  }
+}
